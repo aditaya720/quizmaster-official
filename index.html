@@ -9,47 +9,70 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #f4f6fb;
+    background: #f1f4f9;
 }
 
 header {
-    background: linear-gradient(45deg,#6a11cb,#2575fc);
+    background: linear-gradient(45deg,#4facfe,#00f2fe);
     color: white;
-    padding: 25px;
+    padding: 30px;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
 }
 
 .container {
     padding: 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .card {
     background: white;
     padding: 20px;
-    border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-h1,h2 {
+h2 {
     margin-top: 0;
 }
 
 .btn {
     display: inline-block;
-    padding: 10px 15px;
-    background: #2575fc;
+    padding: 12px 18px;
+    background: #007bff;
     color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
+    font-weight: bold;
     margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background: #222;
     color: white;
+}
+
+.badge {
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
 }
 </style>
 
@@ -59,73 +82,68 @@ footer {
 
 <header>
     <h1>QuizMaster</h1>
-    <p>Quiz Game & Win</p>
+    <p>Quiz Game & Win <span class="badge">Free</span></p>
 </header>
 
 <div class="container">
 
 <div class="card">
-    <h2>About App</h2>
+    <h2>📱 About App</h2>
     <p>
-    QuizMaster is an interactive quiz application where users can test their knowledge,
-    play quizzes, earn points, and enjoy learning in a fun way.
+    QuizMaster is a fun and interactive quiz application where users can test their knowledge,
+    play quizzes across multiple categories, and improve their skills daily.
     </p>
 
     <a class="btn" href="https://play.google.com/store/apps/details?id=com.appsians.quize&pcampaignid=web_share" target="_blank">
-        Download on Google Play
+        📥 Download from Google Play
     </a>
 </div>
 
 <div class="card">
-    <h2>Features</h2>
+    <h2>🚀 Features</h2>
     <ul>
         <li>Multiple quiz categories</li>
-        <li>Earn coins and rewards</li>
-        <li>Leaderboard system</li>
         <li>Daily challenges</li>
-        <li>User-friendly interface</li>
+        <li>Leaderboard system</li>
+        <li>Simple & clean UI</li>
+        <li>Fast performance</li>
     </ul>
 </div>
 
 <div class="card">
-    <h2>Privacy Policy</h2>
+    <h2>🔐 Privacy Policy</h2>
 
     <p>
-    QuizMaster respects your privacy. This policy explains how we collect, use, and protect your data.
+    We value your privacy. This app collects limited data to provide better service.
     </p>
 
-    <h3>Information We Collect</h3>
+    <h3>Information Collected</h3>
     <ul>
-        <li>Device Information (Android version, device type)</li>
-        <li>Usage Data (quiz activity, app usage)</li>
+        <li>Device information (model, OS version)</li>
+        <li>Usage data (quiz activity)</li>
     </ul>
 
     <h3>Advertising</h3>
     <p>
-    We use Google AdMob to display ads. AdMob may collect device identifiers,
-    IP address, and usage data to serve personalized or non-personalized ads.
+    This app uses Google AdMob to display ads. AdMob may collect device identifiers
+    and usage data to serve relevant ads.
     </p>
 
-    <h3>Data Usage</h3>
+    <h3>Data Use</h3>
     <ul>
-        <li>To improve app performance</li>
-        <li>To enhance user experience</li>
-        <li>To serve relevant ads</li>
+        <li>Improve app performance</li>
+        <li>Enhance user experience</li>
+        <li>Provide advertisements</li>
     </ul>
 
-    <h3>Data Sharing</h3>
+    <h3>Security</h3>
     <p>
-    We do not sell or share personal data with third parties except trusted services like Google AdMob.
+    We use industry-standard practices to protect user data.
     </p>
 
     <h3>Children Policy</h3>
     <p>
-    This app is not intended for children under 13.
-    </p>
-
-    <h3>Security</h3>
-    <p>
-    We use standard security measures to protect user data.
+    This app is not intended for children under 13 years.
     </p>
 
     <h3>Consent</h3>
@@ -138,22 +156,19 @@ footer {
 </div>
 
 <div class="card">
-    <h2>Terms & Conditions</h2>
-
+    <h2>📜 Terms & Conditions</h2>
     <ul>
-        <li>Use the app for legal purposes only</li>
-        <li>No cheating or misuse allowed</li>
-        <li>Rewards are subject to app rules</li>
-        <li>Accounts can be suspended for violations</li>
+        <li>Use the app legally</li>
+        <li>No misuse or cheating</li>
+        <li>We can update features anytime</li>
+        <li>Violation may lead to account restriction</li>
     </ul>
 </div>
 
 <div class="card">
-    <h2>Support</h2>
-    <p>
-    If you face any issue, contact us anytime:
-    </p>
-    <p>Email: govthealth7200@gmail.com</p>
+    <h2>📧 Support</h2>
+    <p>If you need help, contact us:</p>
+    <p><b>Email:</b> govthealth7200@gmail.com</p>
 </div>
 
 </div>
